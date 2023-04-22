@@ -10,8 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: hmarr/debug-action@v2
-
       - name: Send webpack stats to RelativeCI
         uses: relative-ci/agent-action@7abf50165f867d55da7dcb0ba0f7f6cf51bab964
         with:
