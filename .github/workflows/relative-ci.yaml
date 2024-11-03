@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send webpack stats to RelativeCI
-        uses: relative-ci/agent-action@bba1c438d69b637cfed5619a30b3f30206657765
+        uses: relative-ci/agent-action@87f731dcda883c5a65050a96f0a3d225fb790a45
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           key: ${{ secrets.RELATIVE_CI_KEY }}
