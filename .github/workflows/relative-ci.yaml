@@ -16,4 +16,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           key: ${{ secrets.RELATIVE_CI_KEY }}
-          debug: true
+        env:
+          DEBUG: "relative-ci:agent"
